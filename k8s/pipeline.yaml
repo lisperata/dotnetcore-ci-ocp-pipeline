@@ -7,19 +7,19 @@ spec:
   - default: pipelines-dotnetcore-api
     name: APP_NAME
     type: string
-  - default: https://github.com/ericbos111/dotnetcore-ci-ocp-pipeline.git
+  - default: https://github.com/lisperata/dotnetcore-ci-ocp-pipeline.git
     name: GIT_REPO
     type: string
   - default: master
     name: GIT_REVISION
     type: string
-  - default: quay.io/ericbos1/dotnetcore
+  - default: quay.io/kirinovich_natasha/dotnetcore
     name: IMAGE_NAME
     type: string
   - default: .
     name: PATH_CONTEXT
     type: string
-  - default: 'https://github.com/ericbos111/dotnetcore-gitops.git'
+  - default: 'https://github.com/lisperata/dotnetcore-gitops.git'
     name: CONFIG_GIT_REPO
     type: string
   - default: develop
